@@ -14,12 +14,10 @@ public class AppDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        // Конфигурация для User
         modelBuilder.Entity<User>()
             .HasIndex(u => u.Email)
             .IsUnique();
 
-        // Конфигурация для Product
         modelBuilder.Entity<Product>(entity =>
         {
             entity.Property(p => p.Price)

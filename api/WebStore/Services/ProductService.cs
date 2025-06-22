@@ -63,7 +63,6 @@ public class ProductService
 
         if (imageFile != null)
         {
-            // Удаляем старое изображение, если есть
             if (!string.IsNullOrEmpty(product.ImagePath))
             {
                 DeleteImage(product.ImagePath);
@@ -80,7 +79,6 @@ public class ProductService
         var product = await _productRepository.GetByIdAsync(id);
         if (product == null) return false;
 
-        // Удаляем изображение, если есть
         if (!string.IsNullOrEmpty(product.ImagePath))
         {
             DeleteImage(product.ImagePath);

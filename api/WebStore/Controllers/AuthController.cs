@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using WebStore.DTOs;
 using WebStore.Services;
+using webstore.filters;
 
 namespace WebStore.Controllers;
 
@@ -24,7 +25,9 @@ public class AuthController : ControllerBase
     /// <summary>
     /// Регистрация нового пользователя
     /// </summary>
+    
     [HttpPost("register")]
+    [AllowAnonymous]
     [ProducesResponseType(typeof(LoginResponseDto), 200)]
     [ProducesResponseType(typeof(ProblemDetails), 400)]
     [ProducesResponseType(typeof(ProblemDetails), 500)]
@@ -60,6 +63,7 @@ public class AuthController : ControllerBase
     /// Аутентификация пользователя
     /// </summary>
     [HttpPost("login")]
+    [Authorize]
     [ProducesResponseType(typeof(LoginResponseDto), 200)]
     [ProducesResponseType(typeof(ProblemDetails), 401)]
     [ProducesResponseType(typeof(ProblemDetails), 500)]
