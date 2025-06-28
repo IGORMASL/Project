@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import './Login.css';
 
-function LoginForm() {
+function LoginForm({setUser}) {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     email: '',
@@ -33,12 +33,12 @@ try {
         email: formData.email,
         password: formData.password,
       });
-      localStorage.setItem('token', data.token);
+      localStorage.setItem('token', data.Token);
 
       alert('Вход выполнен успешно!');
       setFormData({ email: '', password: '' });
       setErrors({});
-      onLogin(data.user);
+      setUser(data.User);
       navigate('/');
     } catch (error) {
       const friendlyMessage = error.message === 'Failed to fetch'

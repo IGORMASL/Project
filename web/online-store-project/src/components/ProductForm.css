@@ -1,0 +1,24 @@
+.product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #f9f9f9;
+}
+.product-form input,
+.product-form textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.product-form button {
+  width: fit-content;
+  padding: 8px 16px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
