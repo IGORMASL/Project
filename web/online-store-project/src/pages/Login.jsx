@@ -25,31 +25,40 @@ function LoginForm({setUser}) {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    const validationErrors = validate();
-    if (Object.keys(validationErrors).length === 0) {
-try {
+  e.preventDefault();
+  const validationErrors = validate();
+  if (Object.keys(validationErrors).length === 0) {
+    try {
       const data = await loginUser({
         email: formData.email,
         password: formData.password,
       });
       localStorage.setItem('token', data.Token);
 
+      // Получаем пользователя после успешного входа
+      const res = await fetch('http://localhost:5134/api/auth/me', {
+        headers: {
+          Authorization: `Bearer ${data.Token}`,
+        }
+      });
+      const userInfo = await res.json();
+
+      setUser(userInfo);
       alert('Вход выполнен успешно!');
       setFormData({ email: '', password: '' });
       setErrors({});
-      setUser(data.User);
       navigate('/');
     } catch (error) {
       const friendlyMessage = error.message === 'Failed to fetch'
-      ? 'Сервер недоступен. Попробуйте позже.'
-      : error.message;
+        ? 'Сервер недоступен. Попробуйте позже.'
+        : error.message;
       setErrors({ apiError: friendlyMessage });
     }
-    } else {
-      setErrors(validationErrors);
-    }
-  };
+  } else {
+    setErrors(validationErrors);
+  }
+};
+
 
   return (
     <div>
