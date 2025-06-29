@@ -3,64 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\WebStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|c:\\users\\admin\\source\\repos\\webstore\\webstore\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|solutionrelative:webstore\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|c:\\users\\admin\\source\\repos\\webstore\\webstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|solutionrelative:webstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|c:\\users\\admin\\source\\repos\\webstore\\webstore\\services\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|solutionrelative:webstore\\services\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|c:\\users\\admin\\source\\repos\\webstore\\webstore\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|solutionrelative:webstore\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|c:\\users\\admin\\source\\repos\\webstore\\webstore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|solutionrelative:webstore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|c:\\users\\admin\\source\\repos\\webstore\\webstore\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|solutionrelative:webstore\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|c:\\users\\admin\\source\\repos\\webstore\\webstore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|solutionrelative:webstore\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|c:\\users\\admin\\source\\repos\\webstore\\webstore\\filters\\allowanonymousoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|solutionrelative:webstore\\filters\\allowanonymousoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|c:\\users\\admin\\source\\repos\\webstore\\webstore\\dtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|solutionrelative:webstore\\dtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|c:\\users\\admin\\source\\repos\\webstore\\webstore\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|solutionrelative:webstore\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|c:\\users\\admin\\source\\repos\\webstore\\webstore\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|solutionrelative:webstore\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|c:\\users\\admin\\source\\repos\\webstore\\webstore\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|solutionrelative:webstore\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|c:\\users\\admin\\source\\repos\\webstore\\webstore\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|solutionrelative:webstore\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|c:\\users\\admin\\source\\repos\\webstore\\webstore\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|solutionrelative:webstore\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|c:\\users\\admin\\source\\repos\\webstore\\webstore\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|solutionrelative:webstore\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|c:\\users\\admin\\source\\repos\\webstore\\webstore\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|solutionrelative:webstore\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|c:\\users\\admin\\source\\repos\\webstore\\webstore\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|solutionrelative:webstore\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|c:\\users\\admin\\source\\repos\\webstore\\webstore\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,209 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "JwtService.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Services\\JwtService.cs",
-              "RelativeDocumentMoniker": "WebStore\\Services\\JwtService.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Services\\JwtService.cs",
-              "RelativeToolTip": "WebStore\\Services\\JwtService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Program.cs",
+              "RelativeDocumentMoniker": "WebStore\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Program.cs",
+              "RelativeToolTip": "WebStore\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:17:35.131Z",
+              "WhenOpened": "2025-06-29T01:54:16.634Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IPasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Services\\IPasswordHasher.cs",
-              "RelativeDocumentMoniker": "WebStore\\Services\\IPasswordHasher.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Services\\IPasswordHasher.cs",
-              "RelativeToolTip": "WebStore\\Services\\IPasswordHasher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "WebStore\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Controllers\\CartController.cs",
+              "RelativeToolTip": "WebStore\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:17:33.432Z",
+              "WhenOpened": "2025-06-29T01:50:57.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "WebStore\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Services\\AuthService.cs",
-              "RelativeToolTip": "WebStore\\Services\\AuthService.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:17:31.192Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Models\\User.cs",
-              "RelativeDocumentMoniker": "WebStore\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Models\\User.cs",
-              "RelativeToolTip": "WebStore\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:17:29.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Models\\UserRole.cs",
-              "RelativeDocumentMoniker": "WebStore\\Models\\UserRole.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Models\\UserRole.cs",
-              "RelativeToolTip": "WebStore\\Models\\UserRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:17:27.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "WebStore\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Models\\Product.cs",
-              "RelativeToolTip": "WebStore\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:17:26.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AllowAnonymousOperationFilter.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\filters\\AllowAnonymousOperationFilter.cs",
-              "RelativeDocumentMoniker": "WebStore\\filters\\AllowAnonymousOperationFilter.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\filters\\AllowAnonymousOperationFilter.cs",
-              "RelativeToolTip": "WebStore\\filters\\AllowAnonymousOperationFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:17:24.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UpdateProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\DTOs\\UpdateProductDto.cs",
-              "RelativeDocumentMoniker": "WebStore\\DTOs\\UpdateProductDto.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\DTOs\\UpdateProductDto.cs",
-              "RelativeToolTip": "WebStore\\DTOs\\UpdateProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:17:21.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\DTOs\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "WebStore\\DTOs\\RegisterDto.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\DTOs\\RegisterDto.cs",
-              "RelativeToolTip": "WebStore\\DTOs\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:17:19.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\DTOs\\ProductDto.cs",
-              "RelativeDocumentMoniker": "WebStore\\DTOs\\ProductDto.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\DTOs\\ProductDto.cs",
-              "RelativeToolTip": "WebStore\\DTOs\\ProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:17:18.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\DTOs\\LoginResponseDto.cs",
-              "RelativeDocumentMoniker": "WebStore\\DTOs\\LoginResponseDto.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\DTOs\\LoginResponseDto.cs",
-              "RelativeToolTip": "WebStore\\DTOs\\LoginResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:17:17.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\DTOs\\LoginDto.cs",
-              "RelativeDocumentMoniker": "WebStore\\DTOs\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\DTOs\\LoginDto.cs",
-              "RelativeToolTip": "WebStore\\DTOs\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:17:13.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CreateProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\DTOs\\CreateProductDto.cs",
-              "RelativeDocumentMoniker": "WebStore\\DTOs\\CreateProductDto.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\DTOs\\CreateProductDto.cs",
-              "RelativeToolTip": "WebStore\\DTOs\\CreateProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:17:12.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "WebStore\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "WebStore\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:17:01.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "WebStore\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "WebStore\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:17:00.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "WebStore\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Controllers\\AuthController.cs",
               "RelativeToolTip": "WebStore\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T22:16:59.421Z",
+              "WhenOpened": "2025-06-29T01:50:53.865Z",
               "EditorCaption": ""
             }
           ]

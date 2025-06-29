@@ -20,7 +20,12 @@ public class User
 
     [Required]
     public UserRole Role { get; set; } = UserRole.User;
+    public Cart Cart { get; set; } 
 
     [Required]
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
+    public DateTime? UpdatedAt { get; set; }
+    public ICollection<Order> Orders { get; set; } = new List<Order>();
+    public ICollection<Review> Reviews { get; set; } = new List<Review>();
 }

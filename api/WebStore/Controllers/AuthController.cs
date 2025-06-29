@@ -3,34 +3,35 @@ using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using WebStore.DTOs;
 using WebStore.Services;
-using webstore.filters;
 
 namespace WebStore.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/auth")]
+[Produces("application/json")]
 public class AuthController : ControllerBase
 {
     private readonly AuthService _authService;
+    private readonly UserService _userService;
     private readonly ILogger<AuthController> _logger;
 
     public AuthController(
         AuthService authService,
+        UserService userService,
         ILogger<AuthController> logger)
     {
         _authService = authService;
+        _userService = userService;
         _logger = logger;
     }
 
     /// <summary>
     /// Регистрация нового пользователя
     /// </summary>
-    
     [HttpPost("register")]
     [AllowAnonymous]
-    [ProducesResponseType(typeof(LoginResponseDto), 200)]
-    [ProducesResponseType(typeof(ProblemDetails), 400)]
-    [ProducesResponseType(typeof(ProblemDetails), 500)]
+    [ProducesResponseType(typeof(LoginResponseDto), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ValidationProblemDetails), StatusCodes.Status400BadRequest)]
     public async Task<IActionResult> Register([FromBody] RegisterDto registerDto)
     {
         try
@@ -41,20 +42,11 @@ public class AuthController : ControllerBase
         catch (ArgumentException ex)
         {
             _logger.LogWarning(ex, "Registration failed for {Email}", registerDto.Email);
-            return BadRequest(new ProblemDetails
+            return BadRequest(new ValidationProblemDetails
             {
-                Title = "Registration failed",
+                Title = "Registration error",
                 Detail = ex.Message,
                 Status = StatusCodes.Status400BadRequest
-            });
-        }
-        catch (Exception ex)
-        {
-            _logger.LogError(ex, "Error during registration");
-            return StatusCode(StatusCodes.Status500InternalServerError, new ProblemDetails
-            {
-                Title = "Internal server error",
-                Status = StatusCodes.Status500InternalServerError
             });
         }
     }
@@ -63,10 +55,9 @@ public class AuthController : ControllerBase
     /// Аутентификация пользователя
     /// </summary>
     [HttpPost("login")]
-    [Authorize]
-    [ProducesResponseType(typeof(LoginResponseDto), 200)]
-    [ProducesResponseType(typeof(ProblemDetails), 401)]
-    [ProducesResponseType(typeof(ProblemDetails), 500)]
+    [AllowAnonymous]
+    [ProducesResponseType(typeof(LoginResponseDto), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status401Unauthorized)]
     public async Task<IActionResult> Login([FromBody] LoginDto loginDto)
     {
         try
@@ -84,46 +75,42 @@ public class AuthController : ControllerBase
                 Status = StatusCodes.Status401Unauthorized
             });
         }
-        catch (Exception ex)
+    }
+
+    /// <summary>
+    /// Проверка доступности email
+    /// </summary>
+    [HttpGet("check-email")]
+    [AllowAnonymous]
+    [ProducesResponseType(typeof(EmailAvailabilityResponse), StatusCodes.Status200OK)]
+    public async Task<IActionResult> CheckEmailAvailable([FromQuery] string email)
+    {
+        try
         {
-            _logger.LogError(ex, "Error during login");
-            return StatusCode(StatusCodes.Status500InternalServerError, new ProblemDetails
-            {
-                Title = "Internal server error",
-                Status = StatusCodes.Status500InternalServerError
-            });
+            var user = await _userService.GetUserByEmailAsync(email);
+            return Ok(new EmailAvailabilityResponse { IsAvailable = false });
+        }
+        catch (ArgumentException)
+        {
+            return Ok(new EmailAvailabilityResponse { IsAvailable = true });
         }
     }
 
     /// <summary>
-    /// Проверка авторизации (тестовый метод)
+    /// Получение информации о текущем пользователе
     /// </summary>
-    [HttpGet("test-auth")]
+    [HttpGet("me")]
     [Authorize]
-    [ProducesResponseType(200)]
-    [ProducesResponseType(401)]
-    public IActionResult TestAuth()
+    [ProducesResponseType(typeof(UserDto), StatusCodes.Status200OK)]
+    public async Task<IActionResult> GetCurrentUser()
     {
-        var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-        var userEmail = User.FindFirst(ClaimTypes.Email)?.Value;
-
-        return Ok(new
-        {
-            Message = "You are authorized!",
-            UserId = userId,
-            Email = userEmail
-        });
+        var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        var user = await _userService.GetUserByIdAsync(Guid.Parse(userId));
+        return Ok(user);
     }
+}
 
-    /// <summary>
-    /// Проверка роли Admin (тестовый метод)
-    /// </summary>
-    [HttpGet("test-admin")]
-    [Authorize(Roles = "Admin")]
-    [ProducesResponseType(200)]
-    [ProducesResponseType(403)]
-    public IActionResult TestAdmin()
-    {
-        return Ok(new { Message = "You are admin!" });
-    }
+public class EmailAvailabilityResponse
+{
+    public bool IsAvailable { get; set; }
 }

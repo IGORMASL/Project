@@ -131,4 +131,20 @@ public class ProductService
             ImageUrl = imageUrl
         };
     }
+    public async Task<ProductVariantDto?> GetVariantByIdAsync(Guid variantId)
+    {
+        var variant = await _productRepository.GetVariantByIdAsync(variantId);
+        if (variant == null) return null;
+
+        var product = await GetProductByIdAsync(variant.ProductId);
+        if (product == null) return null;
+
+        return new ProductVariantDto
+        {
+            Id = variant.Id,
+            StockQuantity = variant.StockQuantity,
+            AdditionalPrice = variant.AdditionalPrice,
+            Product = product
+        };
+    }
 }
