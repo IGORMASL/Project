@@ -1,0 +1,22 @@
+.product-card {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.product-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.product-info {
+  flex-grow: 1;
+}
+.admin-buttons {
+  margin-top: 10px;
+}
+.admin-buttons button {
+  margin-right: 10px;
+}
