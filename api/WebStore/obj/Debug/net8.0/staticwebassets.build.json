@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "jFMkjy+qiw5TlaD+gvh5dR6Ctnwcjcf4vwn+hnj79nU=",
+  "Source": "WebStore",
+  "BasePath": "_content/WebStore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebStore\\wwwroot",
+      "Source": "WebStore",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\wwwroot\\",
+      "BasePath": "_content/WebStore",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
