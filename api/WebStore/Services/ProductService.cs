@@ -28,7 +28,8 @@ public class ProductService
         {
             Name = dto.Name,
             Description = dto.Description,
-            Price = dto.Price
+            Price = dto.Price,
+            CategoryId = dto.CategoryId
         };
 
         if (imageFile != null)

@@ -45,7 +45,6 @@ public class CartController : ControllerBase
     {
         try
         {
-            // Проверка доступности товара
             var variant = await _productService.GetVariantByIdAsync(dto.ProductVariantId);
             if (variant.StockQuantity < dto.Quantity)
             {

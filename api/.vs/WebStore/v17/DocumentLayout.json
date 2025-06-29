@@ -5,18 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|c:\\users\\admin\\source\\repos\\webstore\\webstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|solutionrelative:webstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|c:\\users\\admin\\source\\repos\\webstore\\webstore\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|solutionrelative:webstore\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|c:\\users\\admin\\source\\repos\\webstore\\webstore\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|solutionrelative:webstore\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|c:\\users\\admin\\source\\repos\\webstore\\webstore\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98BEFD03-D3A0-4CFA-9DEE-B4339D66FDED}|WebStore\\WebStore.csproj|solutionrelative:webstore\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,50 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "JwtService.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Services\\JwtService.cs",
-              "RelativeDocumentMoniker": "WebStore\\Services\\JwtService.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Services\\JwtService.cs",
-              "RelativeToolTip": "WebStore\\Services\\JwtService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAowCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T13:39:52.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "WebStore\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Services\\UserService.cs",
-              "RelativeToolTip": "WebStore\\Services\\UserService.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAADwvw0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T13:25:01.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "WebStore\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "WebStore\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAgwFwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T01:50:53.865Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -79,9 +28,9 @@
               "RelativeDocumentMoniker": "WebStore\\Program.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\Program.cs",
               "RelativeToolTip": "WebStore\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T01:54:16.634Z",
+              "WhenOpened": "2025-06-29T21:41:58.598Z",
               "EditorCaption": ""
             }
           ]

@@ -4,10 +4,10 @@ namespace WebStore.Repositories;
 
 public interface IProductRepository
 {
-    Task<Product> CreateAsync(Product product);
     Task<Product?> GetByIdAsync(Guid id);
-    Task<IEnumerable<Product>> GetAllAsync();
+    Task<IEnumerable<Product>> GetAllAsync(); 
+    Task<Product> CreateAsync(Product product);
     Task<Product> UpdateAsync(Product product);
-    Task<ProductVariant?> GetVariantByIdAsync(Guid variantId);
     Task<bool> DeleteAsync(Guid id);
+    Task<ProductVariant?> GetVariantByIdAsync(Guid variantId);
 }

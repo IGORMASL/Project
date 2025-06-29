@@ -1,4 +1,5 @@
-﻿using WebStore.DTOs;
+﻿using Microsoft.EntityFrameworkCore;
+using WebStore.DTOs;
 using WebStore.Models;
 using WebStore.Repositories;
 
@@ -79,7 +80,19 @@ public class ProductVariantService
         variant.StockQuantity += quantityChange;
         await _variantRepository.UpdateAsync(variant);
     }
-
+    public async Task<IEnumerable<ProductVariantDto>> GetAllVariantsAsync(Guid productId)
+    {
+        var variants = await _variantRepository.GetAllByProductIdAsync(productId);
+        return variants.Select(v => new ProductVariantDto
+        {
+            Id = v.Id,
+            ProductId = v.ProductId,
+            Size = v.Size,
+            Color = v.Color,
+            StockQuantity = v.StockQuantity,
+            AdditionalPrice = v.AdditionalPrice
+        });
+    }
     private ProductVariantDto MapToDto(ProductVariant variant)
     {
         return new ProductVariantDto

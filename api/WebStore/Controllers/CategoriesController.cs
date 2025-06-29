@@ -17,6 +17,7 @@ public class CategoriesController : ControllerBase
     }
 
     [HttpGet]
+    [AllowAnonymous]
     public async Task<IActionResult> GetAllCategories()
     {
         var categories = await _categoryService.GetAllCategoriesAsync();
@@ -24,6 +25,7 @@ public class CategoriesController : ControllerBase
     }
 
     [HttpGet("{id}")]
+    [AllowAnonymous]
     public async Task<IActionResult> GetCategoryById(Guid id)
     {
         var category = await _categoryService.GetCategoryByIdAsync(id);

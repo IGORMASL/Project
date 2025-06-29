@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\wwwroot\\uploads\\products\\291af4ed-55c4-436f-a08e-7c096c2314b9.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\291af4ed-55c4-436f-a08e-7c096c2314b9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\wwwroot\\uploads\\products\\62b74f9b-cb76-4706-b15c-c17f4daf8c1a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\62b74f9b-cb76-4706-b15c-c17f4daf8c1a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\wwwroot\\uploads\\products\\8e0586be-085b-44fd-8497-4abf08cb5ed4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\8e0586be-085b-44fd-8497-4abf08cb5ed4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\wwwroot\\uploads\\products\\b3302827-a690-4d99-9b9f-2de9c828993d.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\b3302827-a690-4d99-9b9f-2de9c828993d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\wwwroot\\uploads\\products\\b8e09316-f2e1-4644-9cb1-bdd33542cbfb.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\b8e09316-f2e1-4644-9cb1-bdd33542cbfb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\wwwroot\\uploads\\products\\c1eefc09-9774-4e6a-b2a8-515fc628c289.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\c1eefc09-9774-4e6a-b2a8-515fc628c289.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\WebStore\\WebStore\\wwwroot\\uploads\\products\\e84dd9eb-5606-47f3-9eec-13d935bbb992.jpg",
+      "PackagePath": "staticwebassets\\uploads\\products\\e84dd9eb-5606-47f3-9eec-13d935bbb992.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebStore.props",
+      "PackagePath": "build\\WebStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebStore.props",
+      "PackagePath": "buildMultiTargeting\\WebStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebStore.props",
+      "PackagePath": "buildTransitive\\WebStore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

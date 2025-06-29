@@ -403,6 +403,16 @@
         "IsRequired": false
       },
       {
+        "Name": "CategoryId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
         "Name": "image",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
@@ -587,6 +597,22 @@
     "ContainingType": "WebStore.Controllers.ReviewsController",
     "Method": "CanUserReview",
     "RelativePath": "api/products/{productId}/reviews/can-review",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebStore.Controllers.ProductVariantsController",
+    "Method": "GetAllVariants",
+    "RelativePath": "api/products/{productId}/variants",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

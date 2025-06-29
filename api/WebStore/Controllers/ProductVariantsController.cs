@@ -15,6 +15,20 @@ public class ProductVariantsController : ControllerBase
     {
         _variantService = variantService;
     }
+    [HttpGet]
+    [AllowAnonymous]
+    public async Task<IActionResult> GetAllVariants(Guid productId)
+    {
+        try
+        {
+            var variants = await _variantService.GetAllVariantsAsync(productId);
+            return Ok(variants);
+        }
+        catch (ArgumentException ex)
+        {
+            return NotFound(ex.Message);
+        }
+    }
 
     [HttpPost]
     [Authorize(Roles = "Admin")]

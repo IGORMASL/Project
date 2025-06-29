@@ -51,4 +51,10 @@ public class ProductVariantRepository : IProductVariantRepository
 
         return variant?.StockQuantity >= quantity;
     }
+    public async Task<IEnumerable<ProductVariant>> GetAllByProductIdAsync(Guid productId)
+    {
+        return await _context.ProductVariants
+            .Where(v => v.ProductId == productId)
+            .ToListAsync();
+    }
 }

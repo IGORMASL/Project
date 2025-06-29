@@ -1,4 +1,6 @@
-﻿namespace WebStore.DTOs;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace WebStore.DTOs;
 
 public class ProductDto
 {
@@ -11,9 +13,19 @@ public class ProductDto
 
 public class CreateProductDto
 {
-    public string Name { get; set; } = null!;
-    public string? Description { get; set; }
+    [Required]
+    public string Name { get; set; }
+
+    public string Description { get; set; }
+
+    [Required]
+    [Range(0.01, double.MaxValue)]
     public decimal Price { get; set; }
+
+    [Required]
+    public Guid CategoryId { get; set; } 
+
+    public IFormFile Image { get; set; }
 }
 
 public class UpdateProductDto
